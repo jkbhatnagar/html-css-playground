@@ -1,0 +1,136 @@
+    /* tag selector */
+    body {
+        background-color:rgba(255, 255, 255, 0.5);
+        color:DodgerBlue;
+        background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+
+        /* background-color, which we have come across before.
+        background-image, which is the location of the image itself.
+        background-repeat, which is how the image repeats itself. Its value can be:
+            repeat, the equivalent of a “tile” effect across the whole background,
+            repeat-y, repeating on the y-axis, above and below,
+            repeat-x (repeating on the x-axis, side-by-side), or
+            no-repeat (which shows just one instance of the image).
+        background-position, which can be top, center, bottom, left, right, a length, or a percentage, or any sensible combination, such as top right. */
+    }
+
+    /* Tag selector */
+    h1 {
+        color: blue;
+        border: 1px solid rgb(5, 193, 218);
+        padding: 30px;
+        margin: 50px;
+    }
+
+    /* id selector */
+    #p01 {
+        color:#ff6347;
+    }
+    
+    /* tag class selector */
+    p.error {
+        color: purple;
+        }
+
+    /* class selector */
+    .parentdiv {
+        border: 2px solid rgb(95, 95, 95);
+        padding: 20px 0px 20px 0px;
+    }
+    
+    /* class selector */
+    .childdiv{
+        border: 2px solid rgb(0, 0, 0);
+
+    }
+
+    /* Pseudo Classes tag:property */ 
+    /* tag attribute selector */
+    /* CSS3 has also delivered a whole new set of pseudo classes: last-child, target, first-of-type, and more. */
+    p:first-child {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    input:focus, textarea:focus {
+        background: #eee;
+    }
+
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+    }
+      
+    a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .parent2 {
+        height: 100px;
+        background-color: burlywood;
+        padding-top: 10px;
+    }
+
+    .child2 {
+        background-color: #ff6347;
+        border: 2px solid rgb(0, 0, 0);
+        /* padding-bottom: 20px; */
+        /* margin-bottom: 20px;
+        margin-top: 20px; */
+    }
+
+    .formattedtext {
+
+        font-family: arial, helvetica, sans-serif;
+
+        /* bold, bolder, lighter, 100, 200, 300, 400 (same as normal), 500, 600, 700 (same as bold), 800 or 900 */
+        font-weight: normal;
+
+        /* italic or normal */
+        font-style: normal;
+
+        /* underline, overline, line-through */
+        text-decoration: none;
+
+        /* none, uppercase, lowercase, capitalize */
+        text-transform: capitalize;
+
+        /* 2em, 14px */
+        font-size: 1.5em;
+
+        /* normal or size */
+        letter-spacing: normal;
+
+        /* left, right, center, or justify */
+        text-align:left;
+
+        /* text-indent: */
+
+        word-spacing: normal;
+
+        letter-spacing: 0.5em;
+        word-spacing: 2em;
+        line-height: 1.5;
+        text-align: center;
+
+        /*  */
+        font-style: italic;
+
+        letter-spacing: 0.5em;
+        word-spacing: 2em;
+    }
